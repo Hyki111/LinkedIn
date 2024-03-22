@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Three Sections Layout</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .left-section, .middle-section{
+    /* border: 1px solid #ccc; */
+    padding: 20px;
+  }
+
+  .left-section {
+    width: 30%;
+    background-color: yellowgreen;
+    margin-right: 10px;
+  }
+
+  .middle-section {
+    width: 60%;
+    background-color: yellow;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="left-section">
+    <h2>Left Section</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ultricies felis.</p>
+  </div>
+  <div class="middle-section">
+    <h2>Middle Section</h2>
+    <p>Phasellus consequat magna eu ligula vulputate, quis bibendum odio molestie.</p>
+  </div>
+</div>
+
+</body>
+</html>
